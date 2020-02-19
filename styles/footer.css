@@ -25,12 +25,14 @@
 
 .about_company{
     padding-top: 44px;
+    margin-top: 40px;
 }
 
 .additional-navigation{
     margin-top: 60px;
     margin-left: auto;
     display: flex;
+    margin-bottom: 47px;
 }
 
 .nav-links_title{
