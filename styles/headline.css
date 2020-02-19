@@ -1,0 +1,9 @@
+.headline{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+
+.headline_banner {
+    position: absolute;
+}
