@@ -13,12 +13,13 @@
     display: none;
 }
 
-.header-button{
+.header__button{
     display: none;
 }
 
 .header__menu-button{
     width: 58px;
+    border: none;
     border-left: 1px solid #000000; 
     opacity: 0.15;
     height: 100%;
@@ -29,10 +30,16 @@
     width: 18px;
     height: 13px;
     background-image: url('../img/burg.png');
+    display: inline-block;
 }
 
 
 @media screen and (min-width: 400px){
+    .top-section{
+        background-color: #f3c6bd;
+        padding-top: 39px;
+    }
+    
     .navigation{
         display: block;
         margin-left: auto;
@@ -47,22 +54,19 @@
         height: 62px;
         margin: auto;
         display: flex;
-        
-    }
-    .top-section{
         background-color: #f3c6bd;
-        padding-top: 39px;
     }
-    .header-button{
+    
+    .header__button{
         display: block;
     }
-    .logo_description{
+    .logo__description{
         font-size: 18px;
         line-height: 25px;
         color: #2B292D;
         opacity: 0.6;
     }
-    .logo_image{
+    .logo__image{
         height: 60px;
         width: 60px;
         margin-right: 15px;
@@ -72,7 +76,7 @@
     display: flex;
 }
 
-.logo_image{
+.logo__image{
     height: 48px;
     width: 48px;
     margin-right: 13px;
@@ -84,7 +88,7 @@
     font-weight: 700;
 }
 
-.logo_description{
+.logo__description{
     display: none;
 }
 
