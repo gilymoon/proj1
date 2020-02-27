@@ -1,15 +1,25 @@
+.features{
+    display: flex;
+    position: relative;
+}
+
+
+
+
+@media screen and (max-width:399px){
+    .features{
+        display: none;
+    }
+
+}
+
+
 .features_content{
     width: 1140px;
     margin: auto;
     display: flex;
 
 }
-
-.features{
-    display: flex;
-    position: relative;
-}
-
 
 .features_column{
     width: 459px;
