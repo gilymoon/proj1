@@ -10,19 +10,25 @@
 }
 
 
-@media screen and (min-width:400px){
+
     .hide_desktop{
-
-        display: none;
+        @include for-large-up{
+            display: none;
+        }
+        
     }
-}
 
-@media screen and (max-width:399px){
+
+
     .hide_mobile{
-        display: none;
+        @include for-large-down{
+            display: none;
+        }
     }
-}
 
-.hide_desktop{
-    display: none;
-}
+    .icon-arrow_right {
+        display: block;
+        background-image: url('../img/arrow-grey.png');
+        width: 7px;
+        height: 12px;
+    }
